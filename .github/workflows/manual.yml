@@ -30,4 +30,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install pyyaml selenium beautifulsoup4 
+          apt-get update
+          apt install chromium-chromedriver
+          cp /usr/lib/chromium-browser/chromedriver /usr/bin
           python dailylogincamisa7.py
