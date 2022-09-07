@@ -30,7 +30,7 @@ from bs4 import BeautifulSoup
 
 #Loading User and Password
 
-conf = yaml.full_load(open('/content/loginDetails/loginDetails.yml'))
+conf = yaml.full_load(open('loginDetails.yml'))
 camisa7Email = conf['camisa7_user']['email']
 camisa7Password = conf['camisa7_user']['password']
 
