@@ -7,13 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1nhtgN4xaKSKn6XbB1Ylc9gK9U-rrkdHE
 """
 
-pip install beautifulsoup4
+#pip install beautifulsoup4
 
-pip install Selenium
+#pip install Selenium
 
-!apt-get update
-!apt install chromium-chromedriver
-!cp /usr/lib/chromium-browser/chromedriver /usr/bin
+#!apt-get update
+#!apt install chromium-chromedriver
+#!cp /usr/lib/chromium-browser/chromedriver /usr/bin
 
 import sys
 import yaml
